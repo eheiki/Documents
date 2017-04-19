@@ -79,7 +79,7 @@ $culture = [System.Globalization.CultureInfo]::InvariantCulture
 
 Lets assume the string contains a date in non standard format like and has some extra spaces:
 ```powershell
-$date1 = 'Fri Dec  2 13:05:04 2016'
+$date = 'Fri Dec  2 13:05:04 2016'
 ```
 In this case it is not enough to just define a culture but excess spaces must be removed also. Otherwise script gives an error.
 ```powershell
