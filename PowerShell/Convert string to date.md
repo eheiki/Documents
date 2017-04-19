@@ -76,6 +76,7 @@ $culture = [System.Globalization.CultureInfo]::InvariantCulture
 20. september 2016. a. 3:38:20
 ```
 * Example 3
+
 Lets assume the string contains a date in non standard format like and has some extra spaces:
 ```powershell
 $date1 = 'Fri Dec  2 13:05:04 2016'
